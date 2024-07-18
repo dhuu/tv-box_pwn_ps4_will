@@ -53,7 +53,7 @@ echo -e "\n\n\033[36m _____  _____  _____
 
 echo -e "\033[92mOriginal Script :\033[93m Stooged\033[0m" | sudo tee /dev/tty1
 echo -e "\033[92mC++ Port        :\033[93m xfangfang\033[0m" | sudo tee /dev/tty1
-echo -e "\033[92mTV BOX Port By  :\033[93m Karf5\033[0m" | sudo tee /dev/tty1
+echo -e "\033[92mTV BOX Port By  :\033[93m WILLGAMETV\033[0m" | sudo tee /dev/tty1
 
 sudo systemctl stop pppoe
 if [ $USBETHERNET = true ] ; then
