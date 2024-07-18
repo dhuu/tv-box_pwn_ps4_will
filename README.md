@@ -76,7 +76,7 @@ rm -f -r PI-Pwn
 systemctl stop pipwn
 git clone https://github.com/dhuu/tv-box_pwn_ps4_will.git
 mkdir /boot/firmware/
-cd PI-Pwn
+cd tv-box_pwn_ps4_will
 cp -r PPPwn /boot/firmware/
 cd /boot/firmware/PPPwn
 chmod 777 *
