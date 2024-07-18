@@ -68,3 +68,17 @@ Escolha Não usar para servidor proxy
 NOTA: se você habilitar o acesso à internet você deve corresponder ao nome de usuário e senha digitados durante a instalação ou usar o ppp padrão
 
 NOTA: que este instalador funciona normalmente no Raspberry Pi, mas esta explicação se concentra mais em dispositivos TV BOX
+
+```sh
+apt update
+apt install git -y
+rm -f -r PI-Pwn
+systemctl stop pipwn
+git clone https://github.com/dhuu/tv-box_pwn_ps4_will.git
+mkdir /boot/firmware/
+cd PI-Pwn
+cp -r PPPwn /boot/firmware/
+cd /boot/firmware/PPPwn
+chmod 777 *
+bash install.sh
+```
