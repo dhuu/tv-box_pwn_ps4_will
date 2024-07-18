@@ -43,17 +43,17 @@ if [ $arch -eq 32 ] && [ $CPPBIN = "pppwn64" ] ; then
 CPPBIN="pppwn7"
 fi
 
-echo -e "\n\n\033[36m _____  _____  _____                 
-|  __ \\|  __ \\|  __ \\
-| |__) | |__) | |__) |_      ___ __
-|  ___/|  ___/|  ___/\\ \\ /\\ / / '_ \\
-| |    | |    | |     \\ V  V /| | | |
-|_|    |_|    |_|      \\_/\\_/ |_| |_|\033[0m
+echo -e "\n\n\033[36m _____  _____  _____                     _        _   _   _         _
+|  __ \\|  __ \\|  __ \\                   | |  __  | | | | | |       | |
+| |__) | |__) | |__) |_      ___ __   _ | | /  \ | | | | | |       | |
+|  ___/|  ___/|  ___/\\ \\ /\\ / / '_ \\  _ | |/ /\ \| | | | | |       | |
+| |    | |    | |     \\ V  V /| | | |   | / /  \ \ | | | | |_____  | |_____
+|_|    |_|    |_|      \\_/\\_/ |_| |_|   |__/    \__| |_| |_______| |_______|\033[0m
 \n\033[33mhttps://github.com/TheOfficialFloW/PPPwn\033[0m\n" | sudo tee /dev/tty1
 
 echo -e "\033[92mOriginal Script :\033[93m Stooged\033[0m" | sudo tee /dev/tty1
 echo -e "\033[92mC++ Port        :\033[93m xfangfang\033[0m" | sudo tee /dev/tty1
-echo -e "\033[92mTV BOX Port By  :\033[93m Karf5\033[0m" | sudo tee /dev/tty1
+echo -e "\033[92mTV BOX Port By  :\033[93m WILLGAMETV\033[0m" | sudo tee /dev/tty1
 
 sudo systemctl stop pppoe
 if [ $USBETHERNET = true ] ; then
